@@ -1,21 +1,21 @@
-class States_Abbreviated:
-    east_north_central = ['IL', 'IN', 'MI', 'OH', 'WI']
+class States_Full_Name:
+    east_north_central = ['Illinois', 'Indiana', 'Michigan', 'Ohio', 'Wisconsin']
     
-    east_south_central = ['AL', 'KY', 'MS', 'TN']
+    east_south_central = ['Alabama', 'Kentucky', 'Mississippi', 'Tennessee']
     
-    mid_atlantic = ['NJ', 'NY', 'PA']
+    mid_atlantic = ['New Jersey', 'New York', 'Pennsylvania']
     
-    mountain = ['AZ', 'CO', 'ID', 'MT', 'NM', 'NV', 'UT', 'WY']
+    mountain = ['Arizona', 'Colorado', 'Idaho', 'Montana', 'New Mexico', 'Nevada', 'Utah', 'Wyoming']
     
-    new_england = ['CT', 'MA', 'ME', 'NH', 'RI', 'VT']
+    new_england = ['Connecticut', 'Massachusetts', 'Maine', 'New Hampshire', 'Rhode Island', 'Vermont']
     
-    pacific = ['AK', 'CA', 'HI', 'OR', 'WA']
+    pacific = ['Alaska', 'California', 'Hawaii', 'Oregon', 'Washington']
     
-    south_atlantic = ['DC', 'DE', 'FL', 'GA', 'MD', 'NC', 'SC', 'VA', 'WV']
+    south_atlantic = ['District of Columbia', 'Delaware', 'Florida', 'Georgia', 'Maryland', 'North Carolina', 'South Carolina', 'Virginia', 'West Virginia']
     
-    west_north_central = ['IA', 'KS', 'MIN', 'MO', 'ND', 'NE', 'SD']
+    west_north_central = ['Iowa', 'Kansas', 'Minnesota', 'Missouri', 'North Dakota', 'Nebraska', 'South Dakota']
     
-    west_south_central = ['AR', 'LA', 'OK', 'TX']
+    west_south_central = ['Arkansas', 'Louisiana', 'Oklahoma', 'Texas']
     
     all_states = []
     all_states.extend(east_north_central + east_south_central + mid_atlantic
